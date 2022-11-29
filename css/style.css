@@ -1,0 +1,1026 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../fonts/ProximaNova-Bold.woff') format('woff'),
+        url('../fonts/ProximaNova-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('../fonts/ProximaNova-Semibold.woff') format('woff'),
+        url('../fonts/ProximaNova-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.navbar {
+    position: absolute;
+    width: 100%;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #ffffff !important; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.contact {
+    font-family: 'Proxima Nova Lt';
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 10px;
+    color: #818181;
+}
+
+a {
+    color: white;
+}
+
+.intro-sect {
+    background-image: url(../img/introbg.png);
+    padding: 180px 0 80px;
+    background-size: cover;
+
+}
+
+.intro-sect * {
+    color: white;
+}
+
+.intro-sectiction-headings {
+    text-align: center;
+}
+
+.intro-section-title {
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin: 130px 0 12px 0;
+}
+
+.intro-section-subtitle {
+    margin: 0 0 60px 0;
+}
+
+.intro-list-heading {
+    font-family: 'Proxima Nova Rg';
+    font-size: 30px;
+    margin: 35px 0 20px 0;
+}
+
+.intro-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.intro-list__item {
+    display: flex;
+    margin-bottom: 20px;
+    font-family: 'Proxima Nova Lt';
+    font-size: 18px;
+}
+
+.intro-list__item:before {
+    content: '';
+    background-image: url(../img/pseudo.png);
+    background-size: cover;
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+
+.intro-form-block {
+    background-color: white;
+    width: 100%;
+}
+
+.intro-form-heading {
+    font-family: 'Proxima Nova Lt';
+    font-size: 24px;
+    color: #2f93d8;
+    text-align: center;
+    padding: 30px 0 0 0;
+    width: 100%;
+}
+
+.backcall {
+    font-size: 16px;
+    margin: 25px 35px;
+}
+
+.btn-primary {
+    font-family: 'Proxima Nova Lt';
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 35px;
+    background-color: #2f93d8;
+}
+
+.scheme-sect {
+    padding: 100 px 0 120px;
+}
+
+.block-two-title {
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #424242;
+    text-align: center;
+    margin: 106px 0 80px 0;
+}
+
+.phone {
+    color: #2f93d8;
+}
+
+.scheme-block {
+    text-align: center;
+    position: relative;
+}
+
+.scheme-block:after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/arrow-copy.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 20px;
+    top: 40px;
+    left: 104%;
+}
+
+.scheme-block-last:after {
+    display: none;
+}
+
+.scheme-img {
+    border: 2px solid #2f93d8;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 auto 30px;
+}
+
+.brand-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.group {
+    width: 136px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 25px;
+    padding-bottom: 60px;
+}
+
+.square {
+    background-color: white;
+    box-shadow: 1px 0px 9px 2px rgba(0, 0, 0, 0.20);
+    margin: 140px 65px 100px 65px;
+
+}
+
+.block-three-title {
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #442244;
+    text-align: center;
+    padding: 80px 0 80px 0;
+}
+
+.block-four-title {
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #424242;
+    text-align: center;
+    margin: 0 0 85px 0;
+}
+
+.nav-pills-mb-3 {
+    margin-bottom: 70px;
+    justify-content: center;
+} 
+
+.nav-first-item-block-four {
+    border: 2px solid #e8e8e8;
+    color: white;
+    background-color: #2f93d8;
+    width: 150px;
+    text-align: center;
+}
+
+.first-tariff-tab-name {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 10px 0 10px 0;
+    color: white;
+}
+
+.first-tariff-tab-desc {
+    font-size: 14px;
+    color: white;
+}
+
+
+
+.nav-item-block-four {
+    border: 2px solid #e8e8e8;
+    width: 150px;
+    background-color: white;
+    text-align: center;
+}
+
+.nav-link-tariff {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .nav-link-tariff:hover {
+    text-decoration: none;
+} 
+
+.tariff-tab-name {
+    font-size: 16px;
+    color: #6c6c6c;
+    margin: 10px 0 10px 0;
+    text-transform: uppercase;
+}
+
+.tariff-tab-desc {
+    font-size: 14px;
+    color: #6c6c6c;
+    margin-bottom: 15px;
+}
+/* 
+.tariff-tab-name:active {
+    background-color: #2e93d8;
+    color: white;
+
+  }
+
+.tariff-tab-desc:active  {
+      background-color: #2e93d8;
+      color: white;
+  }  */
+
+.tariff-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tariff-name,
+.tariff-price {
+    text-align: center;
+}
+
+.tariff-item {
+    padding: 50px 25px 60px;
+    border: 1px solid #f5f5f5;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    min-width: 270px;
+    box-sizing: border-box;
+    margin: 0 20px;
+    width: 270px;
+
+}
+
+.tariff-item,
+.tariff-item-2 {
+    margin-bottom: 40px;
+}
+
+.tariff-name {
+    color: #575757;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.tariff-price {
+    margin-bottom: 50px;
+}
+
+.tariff-price span {
+    color: #2f93d8;
+    font-size: 36px;
+}
+
+.tariff-features {
+    list-style: none;
+    margin: 50px 0 25px -35px;
+}
+
+.tariff-features-middle {
+    list-style: none;
+    margin: 50px 0 50px -35px;
+}
+
+.btn-tariff {
+    font-family: 'Proxima Nova Lt';
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #2e93d8;
+    padding: 10px 50px;
+}
+
+.consultation-wrapper {
+    background-color: #2f93d8;
+    width: 100%;
+    padding: 100px 50px 120px 50px;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+
+.call-action-consultation {
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 50px;
+
+}
+
+.call-action-send {
+    font-family: 'Proxima Nova Lt';
+    font-size: 36px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.form-consultation {
+    background-color: white;
+    /* max-width: 350px; */
+    padding: 25px 20px;
+    box-sizing: border-box;
+}
+
+.form-consultation-title {
+    font-size: 24px;
+    color: #2f93d8;
+    font-family: 'Proxima Nova Lt';
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.link-text-center {
+    font-size: 16px;
+    color: #2f93d8;
+    text-align: center;
+    display: block;
+
+}
+
+
+.footer-consult {
+    font-size: 15px;
+    color: #2f93d8;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    margin-left: 15px
+}
+
+
+.adresses {
+    list-style: none;
+    font-size: 16px;
+    color: #6c6c6c;
+}
+
+.information {
+    max-width: 258px;
+    text-align: right;
+    list-style: none;
+    font-size: 16px;
+    color: #6c6c6c;
+    margin-right: 15px;
+}
+
+
+@media (min-width: 2560px) {
+    .nav-link {
+        font-size: 24px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .intro-section-title {
+        font-size: 59px;
+    }
+
+    .intro-section-subtitle {
+        font-size: 40px;
+    }
+
+    .intro-list-heading {
+        font-size: 40px;
+    }
+
+    .intro-list__item {
+        font-size: 28px;
+    }
+
+    .intro-list__item:before {
+        padding: 0 35px 35px 0;
+    }
+
+    .intro-form-heading {
+        font-size: 30px;
+    }
+
+    .btn-primary {
+        font-size: 20px;
+    }
+
+    .block-two-title {
+        font-size: 60px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .block-three-title {
+        font-size: 60px;
+    }
+
+    .block-four-title {
+        font-size: 60px;
+    }
+
+
+    .nav-first-item-block-four {
+        width: 180px;
+    }
+
+    .nav-item-block-four {
+        width: 180px;
+    }
+
+
+    .tariff-features {
+        font-size: 22px;
+    }
+
+    .tariff-features-middle {
+        font-size: 22px;
+    }
+
+    .adresses {
+        font-size: 18px;
+    }
+
+    .information {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 2560px) {
+    .nav-link {
+        font-size: 24px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .intro-section-title {
+        font-size: 59px;
+    }
+
+    .intro-section-subtitle {
+        font-size: 40px;
+    }
+
+    .intro-list-heading {
+        font-size: 40px;
+    }
+
+    .intro-list__item {
+        font-size: 28px;
+    }
+
+    .intro-list__item:before {
+        padding: 0 35px 35px 0;
+    }
+
+    .intro-form-heading {
+        font-size: 30px;
+    }
+
+    .btn-primary {
+        font-size: 20px;
+    }
+
+    .block-two-title {
+        font-size: 60px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .block-three-title {
+        font-size: 60px;
+    }
+
+    .block-four-title {
+        font-size: 60px;
+    }
+
+    .nav-first-item-block-four {
+        width: 180px;
+    }
+
+    .nav-item-block-four {
+        width: 180px;
+    }
+
+
+    .tariff-features {
+        font-size: 22px;
+    }
+
+    .tariff-features-middle {
+        font-size: 22px;
+    }
+
+    .adresses {
+        font-size: 18px;
+    }
+
+    .information {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1700px) {
+    .intro-section-title {
+        font-size: 48px;
+    }
+
+    .intro-section-subtitle {
+        font-size: 36px;
+    }
+}
+
+
+@media (max-width: 1260px) {
+    .nav-link {
+        font-size: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .intro-section-title {
+        font-size: 48px;
+    }
+
+    .intro-section-subtitle {
+        font-size: 36px;
+    }
+
+    .intro-list-heading {
+        font-size: 30px;
+    }
+
+    .intro-list__item {
+        font-size: 18px;
+    }
+
+    .intro-list__item:before {
+        width: 27px;
+        height: 27px;
+        margin-right: 25px;
+    }
+
+    .intro-form-heading {
+        font-size: 24px;
+    }
+
+    .btn-primary {
+        font-size: 15px;
+    }
+
+    .block-two-title {
+        font-size: 44px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .block-three-title {
+        font-size: 44px;
+    }
+
+    .block-four-title {
+        font-size: 44px;
+    }
+
+
+    .nav-first-item-block-four {
+        width: 150px;
+    }
+
+    .first-tariff-tab-name {
+        font-size: 16px;
+    }
+
+    .first-tariff-tab-desk {
+        font-size: 14px;
+    }
+
+    .nav-item-block-four {
+        width: 150px;
+    }
+
+    .tariff-tab-name {
+        font-size: 16px;
+    }
+
+    .tariff-tab-desc {
+        font-size: 14px;
+    }
+
+    .tariff-features {
+        font-size: 14px;
+    }
+
+    .tariff-features-middle {
+        font-size: 14px;
+    }
+
+    .adresses {
+        font-size: 16px;
+    }
+
+    .information {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .btn-primary {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+
+    .tariff-item {
+        margin: auto;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .intro-list-heading {
+        margin-left: 20px;
+    }
+
+    .btn-primary {
+        font-size: 10px;
+        padding: 8px;
+    }
+
+    .intro-list__item:before {
+        margin-left: 20px;
+    }
+
+ 
+    .tariff-container {
+        flex-direction: column;
+    }
+
+    .tariff-item {
+        margin-bottom: 30px;
+    }
+
+    .consultation-wrapper {
+        padding: 90px 40px 110px 40px;
+        margin-top: 40px;
+    }
+
+    .call-action-consultation {
+        font-size: 50px;
+    }
+
+    .mb-15 {
+        margin-bottom: 0px;
+    }
+    
+    .form-consultation-title {
+        font-size: 17px;
+    }
+
+    .link-text-center {
+        font-size: 10px;
+    }
+
+    .footer-container {
+        justify-content: space-around;
+    }
+
+    .information {
+        font-size: 12px;
+        max-width: initial;
+        margin-bottom: 10px;
+    }
+
+} 
+
+
+@media (max-width: 768px) {
+    .contact {
+        text-align: left;
+    }
+
+    .intro-section-title {
+        margin: 90px 0 12px 0;
+    }
+
+    .intro-list__item:before {
+        padding: 15px;
+    }
+
+    .intro-list__item {
+        font-size: 16px;
+    }
+
+    .scheme-block:after {
+        display: none;
+    }
+
+    .intro-form-heading {
+        font-size: 20px;
+        padding: 25px 10px 0 10px;
+    }
+
+    .backcall {
+        margin: 20px 20px;
+    }
+
+    .btn-primary {
+        font-size: 12px;
+    }
+
+    .block-two-title {
+        margin: 60px 0 40px 0;
+    }
+
+    .block-four-title {
+        margin-bottom: 30px;
+    }
+
+    .square {
+        margin: 60px 65px 80px 65px;
+    }
+
+
+    .tariff-container {
+        flex-direction: column;
+    }
+
+    .tariff-item {
+        margin-bottom: 40px;
+    }
+
+    .call-action-consultation {
+        font-size: 42px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .call-action-send {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .form-consultation-title {
+        font-size: 17px;
+    }
+
+    .mb-15 {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+
+    .link-text-center {
+        font-size: 10px;
+    }
+
+    .information {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (max-width: 414px) {
+    .intro-section-title {
+        font-size: 40px;
+    }
+    .intro-section-subtitle {
+        font-size: 30px;
+    }
+
+    .intro-list-heading {
+        text-align: center;
+    }
+
+    .block-two-title {
+        font-size: 32px;
+    }
+
+    .scheme-block:after {
+        display: none;
+    }
+
+    .block-four-title {
+        font-size: 32px;
+    }
+
+    .call-action-consultation {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin: auto;
+    }
+
+    .adresses {
+        font-size: 13px;
+        text-align: center;
+        padding: 0;
+        margin: 10px;
+    }
+
+    .information {
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .intro-section-title {
+        font-size: 36px;
+        margin: 70px 0px 12px 0px;
+    }
+
+    .intro-section-subtitle {
+        font-size: 20px;
+        margin: auto;
+    }
+
+    .intro-list-heading {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .intro-list__item:before {
+        padding: 15px;
+        margin-right: 15px;
+    }
+
+    .btn-primary {
+        font-size: 15px;
+    }
+
+    .block-two-title {
+        font-size: 30px;
+        margin: 40px 0 30px 0;
+    }
+
+    .scheme-img {
+        width: 80px;
+        height: 80px;
+        line-height: 73px;
+        margin: 15px auto 10px;
+    }
+
+    .scheme-block:after {
+        display: none;
+    }
+
+    .square {
+        margin: 40px 10px 20px 10px;
+    }
+
+    .block-three-title {
+        font-size: 40px;
+        padding: 40px 0 40px 0;
+    }
+
+    .block-four-title {
+        font-size: 32px;
+        margin: 0 0 50px 0;
+    }
+
+
+    .tariff-container {
+        flex-direction: column;
+    }
+
+    .tariff-item {
+        width: 220px;
+        min-width: 220px;
+        margin-top: 30px;
+        padding: 30px 25px 40px;
+    }
+
+    .tariff-name {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .tariff-features {
+        font-size: 14px;
+        margin: -20px 0 25px -20px;
+    }
+
+    .tariff-price {
+        margin-bottom: 30px;
+    }
+
+    .tariff-features-middle {
+        font-size: 14px;
+        margin: 10px 0 25px -25px;
+    }
+
+    .consultation-wrapper {
+        padding: 50px 30px 50px 30px;
+    }
+
+
+    .call-action-consultation {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .call-action-send {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mb-15 {
+        font-size: 13px;
+    }
+
+
+    .footer-logo {
+        display: flex;
+        margin: 0px 80px 20px 80px;
+    }
+
+    .adresses {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .information {
+        font-size: 10px;
+        text-align: center;
+    }
+}
